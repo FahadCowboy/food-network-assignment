@@ -10,3 +10,62 @@ h1,h2,h3,h4,h5,h6{
 p,a{
     font-family: 'Noto Sans TC', sans-serif;
 }
+
+/* ***** Banner section starts ***** */
+#banner-section{
+    padding: 5% 0;
+}
+
+.full-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-wrapper{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#skip-diet-left{
+    width: 47%;
+    padding: 11% 0 0 0;
+}
+
+#skip-diet-left h1{
+    font-size: 3rem;
+    color: #575757;
+    margin-bottom: 8%;
+}
+
+#skip-diet-left h1 > span{
+    color: #FB9149;
+}
+
+#skip-diet-left p{
+    color: #575757;
+    text-align: justify;
+    line-height: 1.7rem;
+    margin: 0 0 6% 0;
+}
+
+#skip-diet-left a{
+    display: inline-block;
+    padding: 2.3% 6%;
+    background: linear-gradient(45deg,#FB984C,#FE4A2E);
+    border-radius: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#skip-diet-right{
+    width: 47%;
+}
+
+#skip-diet-right > img{
+    width: 100%;
+    vertical-align: middle;
+}
+/* ***** Banner section Ends ***** */
