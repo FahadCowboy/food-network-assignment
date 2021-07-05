@@ -9,12 +9,11 @@ h1,h2,h3,h4,h5,h6{
 
 p,a{
     font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.7rem;
+    text-align: justify;
 }
 
 /* ***** Banner section starts ***** */
-#banner-section{
-    padding: 5% 0;
-}
 
 .full-screen{
     width: 100%;
@@ -23,15 +22,19 @@ p,a{
     align-items: center;
 }
 
-.contents-wrapper{
-    width: 88%;
+#banner-section{
+    padding: 5% 0;
     display: flex;
     justify-content: space-between;
 }
 
+.contents-wrapper{
+    width: 88%;
+}
+
 #skip-diet-left{
     width: 47%;
-    padding: 11% 0 0 0;
+    padding: 8% 0 0 0;
 }
 
 #skip-diet-left h1{
@@ -46,8 +49,6 @@ p,a{
 
 #skip-diet-left p{
     color: #575757;
-    text-align: justify;
-    line-height: 1.7rem;
     margin: 0 0 6% 0;
 }
 
@@ -69,3 +70,54 @@ p,a{
     vertical-align: middle;
 }
 /* ***** Banner section Ends ***** */
+
+/* ***** About section Starts ***** */
+#about-bg{
+    background-image: url(img/Frame-58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-section{
+    padding: 4% 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-left{
+    width: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about-left img{
+    width: 64%;
+    vertical-align: middle;
+}
+
+#about-right{
+    width: 43%;
+    padding: 6% 0 0 0;
+}
+
+#about-right h2{
+    font-size: 2.2rem;
+    color: #707070;
+    margin: 0 0 7% 0;
+}
+
+#about-right p{
+    margin: 0 0 11% 0;
+}
+
+#about-right a{
+    display: inline-block;
+    padding: 2.3% 6%;
+    background: linear-gradient(45deg,#FB984C,#FE4A2E);
+    border-radius: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/***** About section Ends ***** */
