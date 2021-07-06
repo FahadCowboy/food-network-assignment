@@ -60,6 +60,11 @@ p,a{
     border-radius: 2rem;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.2s ease;
+}
+
+#skip-diet-left a:hover{
+    background: linear-gradient(45deg,#FE4A2E,#FB984C);
 }
 
 #skip-diet-right{
@@ -120,7 +125,13 @@ p,a{
     border-radius: 2rem;
     color: #ffffff;
     text-decoration: none;
+    transition: 0.2s ease;
 }
+
+#about-right a:hover{
+    background: linear-gradient(45deg,#FE4A2E,#FB984C);
+}
+
 
 /***** About section Ends ***** */
 
