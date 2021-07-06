@@ -181,6 +181,93 @@ p,a{
 
 /***** Recipie section Ends ***** */
 
+/***** Team section starts *****/
+#team-bg{
+	background: #ddedf8;
+}
+
+#team-section{
+    padding: 5% 0 7% 0;
+}
+
+#team-section-top{
+    width: 55%;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+#team-section-top h2{
+    font-size: 2rem;
+    color: #707070;
+    text-align: center;
+    margin: 0 0 5% 0;
+}
+
+#team-section-top p{
+    color: #252525;
+    text-align: center;
+}
+
+/*TEAM BOTTOM SECTION*/
+#team-section-bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding:4% 0 0 0;
+}
+.team-section-bottom-items{
+	flex-basis: 20.5%;
+}
+.team-section-bottom-items img{
+    width: 89%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 0.1rem solid #a79b9b57;
+}
+.team-section-bottom-items h3{
+    font-size: 1.5rem;
+    margin: 11% 0 5% 0;
+    text-align: center;
+}
+.team-section-bottom-items .team-color-p{
+    color: #22abd8;
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+}
+
+.team-section-bottom-items p{
+    color: #252525;
+    text-align: center;
+}
+.team-section-bottom-items .team-icon{
+	width: 100%;
+    margin: 16% 0 0 0;
+	display: block;
+	display: flex;
+	justify-content: space-evenly;
+}
+.team-icon a{
+    display: inline-block;
+    transition: 0.2s ease;
+    width: 16%;
+    height: 2.3rem;
+    background-color: #a1cad9;
+    border-radius: 50%;
+}
+.team-icon a:hover{
+    background-color: #33748b;
+}
+.team-icon a i{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 14% 0 0 19%;
+}
+
+/***** Team section Ends *****/
+
 /***** Footer section starts ***** */
 
 footer{
